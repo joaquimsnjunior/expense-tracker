@@ -1,0 +1,7 @@
+POST http://localhost:8080/realms/expense-tracker/protocol/openid-connect/token  HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password
+&username=fernando@teste.com
+&password=admin123
+&client_id=my-app
